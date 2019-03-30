@@ -1,37 +1,75 @@
-.gamename {
-   background-color: grey;
-   font-size: 80px;
-   display: inline-block;
-   padding: 15px;
-   margin: 15px;
+/* General Elements*/
+body {
+   font-family: 'Share Tech Mono', monospace;
 }
-.instructions {
-   background-color: grey;
-   font-size: 25px;
-   display: inline-block;
-   padding: 15px;
-   margin: 15px;
+body {
+   background-image: url('../images/background.jpg');
 }
-.current-score {
+div {
+   font-size: 30px;
    background-color: grey;
-   font-size: 45px;
-   display: inline-block;
-   padding: 15px;
-   margin: 15px;
-   width: 70px;
-   height: 100px;
+   margin: 10px;
+   width: 25%;
 }
-
-.score {
-   background-color: grey;
-   font-size: 45px;
-   display: inline-block;
-   padding: 15px;
-   margin: 15px;
-   height: 100px;
+div {
+   border: solid 2px black;
+   padding: 10px;
 }
-button {
-   margin: 15px;
-   padding: 15px;
+h1,
+h3,
+span {
+   font-weight: bold;
+   text-align: center;
+}
+h1 {
+   font-size: 30pt;
+}
+ol {
+   list-style: decimal inside;
+}
+ul {
+   list-style: disc inside;
+   text-indent: 20px;
+}
+/* Specfic Elements*/
+div.header,
+div.gems {
+   background-color: #e0e0eb;
+}
+div.header,
+div.instructions {
+   margin-top: 30px;
+   width: 100%;
+}
+/* Classes */
+.numberToMatch,
+.winsAndLosses {
    display: inline-block;
+   text-align: center;
+}
+.userTotal {
+   display: inline-block;
+}
+.gems {
+   display: inline block;
+   clear: both;
+   width: 100%;
+}
+.gemImage {
+   height: 150px;
+   width: 150px;
+   margin-left: 80px;
+}
+/* IDs */
+#purple {
+   color: purple;
+}
+#white {
+   color: white;
+}
+#blue {
+   color: blue;
+}
+#pink {
+   color: pink;
 }
